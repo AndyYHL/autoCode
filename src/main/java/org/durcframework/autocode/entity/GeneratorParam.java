@@ -38,7 +38,7 @@ public class GeneratorParam {
 	}
 
 	public void setPackageName(String packageName) {
-		this.packageName = packageName;
+		this.packageName = packageName.trim();
 	}
 
 	public String getCharset() {
